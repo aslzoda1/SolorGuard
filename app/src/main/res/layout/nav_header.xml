@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:padding="16dp"
+    android:gravity="bottom"
+    android:background="@drawable/drawer_gradient">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/app_logo"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/img"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="App Logo"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircleImageView" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aslzoda's App"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:fontFamily="@font/y"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/app_tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/s"
+        android:paddingTop="4dp"
+        android:text="SoloGuard"
+        android:textColor="#CCFFFFFF"
+        android:textSize="14sp" />
+</LinearLayout>

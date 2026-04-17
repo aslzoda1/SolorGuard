@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ios_bg_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Live Monitor"
+            android:textColor="@color/ios_text_black"
+            android:textSize="28sp"
+            android:fontFamily="@font/s"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            app:cardBackgroundColor="@color/ios_card_white"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <VideoView
+                    android:id="@+id/videoStreamView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#1A000000"/>
+
+                <TextView
+                    android:id="@+id/connectionStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="Connecting AI Stream..."
+                    android:textColor="@color/ios_text_gray"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                   />
+
+                <TextView
+                    android:fontFamily="@font/y"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="● REC: Block B-4"
+                    android:textColor="@color/ios_red"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <Button
+            android:id="@+id/btnSwitchMode"
+            android:fontFamily="@font/y"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/ios_blue"
+            android:text="Switch Thermal Mode"
+            android:textAllCaps="false"
+            app:cornerRadius="15dp"/>
+    </LinearLayout>
+</FrameLayout>

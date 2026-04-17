@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ios_bg_gray"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:textSize="27dp"
+        android:fontFamily="@font/y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next 48 Hours Analysis"
+        android:textColor="@color/ios_text_gray"
+        android:layout_marginBottom="25dp"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="2dp">
+
+        <VideoView
+            android:id="@+id/predictionVideoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/ios_blue_light"
+        app:cardCornerRadius="15dp"
+        app:strokeWidth="0dp">
+        <TextView
+            android:textSize="18dp"
+            android:fontFamily="@font/y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:text="AI Insight: Temperature expected to remain stable due to upcoming cloud cover."
+            android:textColor="@color/ios_blue"
+            android:textStyle="bold"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="@color/ios_card_white"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="2dp">
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/mainChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            tools:ignore="MissingClass" />
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
