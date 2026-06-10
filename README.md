@@ -1,7 +1,7 @@
 # <img src="https://github.com/user-attachments/assets/069e80af-4569-4367-8095-ba54c4952e61" width="45" /> SolarGuard: AI-Powered Solar Safety
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/069e80af-4569-4367-8095-ba54c4952e61" alt="SolarGuard Banner" width="100%" />
+  <img src="https://github.com/user-attachments/assets/751ae9ec-6250-4c4d-a81b-e9f97150c7fc" alt="SolarGuard Banner" width="100%" />
 </p>
 
 <p align="center">
