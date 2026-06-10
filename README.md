@@ -8,6 +8,7 @@
   <a href="#-project-overview">Overview</a> •
   <a href="#-key-features">Features</a> •
   <a href="#-app-showcase">App Showcase</a> •
+  <a href="#-video-demo">Video Demo</a> •
   <a href="#-business-model">Business Model</a> •
   <a href="#-technical-stack">Tech Stack</a>
 </p>
@@ -20,7 +21,7 @@
 
 This is especially important because solar farms can suffer from significant financial losses due to undetected faults. By offering real-time monitoring and predictive analytics, SolarGuard helps operators take action early and avoid costly damage.
 
-> *"SolarGuard focuses not only on monitoring but also on prevention, making renewable energy systems safer and more reliable for long-term use."* - **Technovation Girls Project**
+> *"SolarGuard focuses not only on monitoring but also on prevention, making renewable energy systems safer and more reliable for long-term use."* - **Technovation Girls Project 2026**
 
 ---
 
@@ -30,9 +31,10 @@ This is especially important because solar farms can suffer from significant fin
 | :--- | :--- | :--- |
 | Early detection of overheating panels using thermal cameras to stop hazards. | AI algorithms that predict potential failures up to 48 hours in advance. | Instant notifications with very low latency via the mobile application. |
 
-* **User-Friendly App:** Easy-to-use mobile application for continuous system monitoring.
-* **Preventive Action:** Focuses on *preventing* problems rather than just detecting them.
-* **High Data Security:** Level data security ensures that sensitive information is protected.
+* **User-Friendly App:** Easy-to-use mobile application with a smooth splash screen for continuous system monitoring.
+* **Preventive Action:** Focuses on *predicting* problems (like micro-cracks or overheating cells invisible to the human eye) rather than just detecting them.
+* **Thermal Scanning:** Professional-grid thermal scans with a single tap to inspect individual solar blocks remotely.
+* **High Data Security:** Built with robust backend logic and strict data integrity practices, allowing operators to easily manage or clear local data safely.
 
 ---
 
@@ -67,6 +69,29 @@ This is especially important because solar farms can suffer from significant fin
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9c1d66d7-ae6b-47d0-9b2a-9027caf018c8" width="31%" alt="App Screen 10" />
 </p>
+
+---
+
+## 🎥 Video Demo
+
+Ilova qanday ishlashini va uning barcha funksiyalarini amalda ko'rish uchun quyidagi video demomizni tomosha qiling:
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=0weyE0GKaTg" target="_blank">
+    <img src="https://img.youtube.com/vi/0weyE0GKaTg/maxresdefault.jpg" alt="SolarGuard App Demo" width="80%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
+  </a>
+</p>
+
+<p align="center">
+  ▶️ <b><a href="https://www.youtube.com/watch?v=0weyE0GKaTg" target="_blank">SolarGuard App Demo | Technovation Girls 2026</a></b>
+</p>
+
+### ⏱️ Video Navigatsiya (Mundarija):
+* **`[00:00:00]`** — Splash Screen va Loyiha Missiyasi bilan tanishuv.
+* **`[00:01:03]`** — Har soniyada yangilanuvchi Real-Time Monitoring Dashboard.
+* **`[00:01:27]`** — Keyingi 48 soatlik xavflarni oldindan bashorat qiluvchi AI bo'limi.
+* **`[00:02:00]`** — Masofaviy Professional Termal Skanerlash (Thermal Mode) funksiyasi.
+* **`[00:02:22]`** — Sinxronizatsiya va Ma'lumotlar xavfsizligi (Settings).
 
 ---
 
@@ -136,4 +161,4 @@ SolarGuard aims to become a standard safety solution for solar installations wor
 
 ---
 
-<p align="center">Developed with (me) Aslzoda ❤️ for <b>Technovation Girls Project</b>.</p>
+<p align="center">Developed with ❤️ by Aslzoda for <b>Technovation Girls Project</b>.</p>
