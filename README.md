@@ -38,7 +38,7 @@ This is especially important because solar farms can suffer from significant fin
 
 ---
 
-## 📱 App Showcase
+##                                                         📱 App Showcase
 
 <p align="center">The SolarGuard mobile application provides intuitive control over your solar assets.</p>
 
