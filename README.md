@@ -162,6 +162,3 @@ SolarGuard aims to become a standard safety solution for solar installations wor
 ---
 
 <p align="center">Developed with ❤️ by Aslzoda for <b>Technovation Girls Project</b>.</p>
-
-
-aslzoda
